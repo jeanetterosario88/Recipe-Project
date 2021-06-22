@@ -8,11 +8,12 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [ //expect array of recipe objects
-  new Recipe('A Test Recipe', 'This is a test', 'https://www.glutenfreeandmore.com/wp-content/uploads/2018/07/15latkes.jpg')
+  new Recipe('A Test Recipe', 'This is a test', 'https://www.glutenfreeandmore.com/wp-content/uploads/2018/07/15latkes.jpg'), 
+  new Recipe('A Test Recipe #2', 'This is a test', 'https://www.glutenfreeandmore.com/wp-content/uploads/2018/07/15latkes.jpg')
   ];
 
   constructor(){}
-  
+
   ngOnInit(): void {
   }
 
